@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body,html
+{
+    height: 100%;
+    width: 100%;
+    background-color: #e4e9ee;
+}
+
+
+.wrapper
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card 
+{
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    width: 350px;
+    /* height: 200px; */
+    border-radius: 5px;
+}
+
+.links-wrap
+{
+    gap: 5px;
+    padding: 0.5em 0.2em;
+}
+.flex
+{
+    display: flex;
+
+}
+.justify-center
+{
+    justify-content: center;
+}
+
+.align-center
+{
+    align-items: center;
+}
+
+.flex-col
+{
+    flex-direction: column;
+}
+
+.name
+{
+    display: block;
+    
+}
+.helper
+{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    
+    background: white;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: clamp(12px,1.5vw,13px);
+   
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.helper > a
+{
+   text-decoration: none;
+    color: black;
+}
+
+.image > img
+{
+   width: 6em;
+    outline: 3.5px solid white;
+    border-radius: 5px;
+    margin-top: -35px;
+ 
+}
+
+.first-section
+{
+    height: 3.5em;
+}
+
+
+
+
+.relative
+{
+    position: relative;
+}
+.absolute
+{
+    position: absolute;
+}
+
+.sect 
+{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 0.5em;
+    color: grey;
+    font-size: 14px;
+    /* background: lightcoral; */
+}
+
+.academics-value,.hourly-value
+{
+    background-color: #f7f8f9;
+    width: 110px;
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 5px;
+
+
+}
+
+.text-center
+{
+    text-align: center;
+    color: grey;
+}
+.desc
+{
+
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 2px;
+}
+
+.academics-value::before
+{
+    content: url('assets/scholar.svg');
+    vertical-align: -4px;
+    padding-right: 5px;
+
+}
+
+.hourly-value::before
+{
+  content: url('assets/dollar.svg');  
+  vertical-align: -4px;
+    padding-left: 5px;
+}
+
+.verified > h3 
+{
+    font-weight: 400;
+    color: rgb(80, 79, 79);
+}
+.verified > p
+{
+    font-size: 12px;
+    font-weight: 300;
+
+}
+
+.verified > h3::after
+{
+    content: url('assets/verified.svg');
+   vertical-align: -4px;
+   padding-left: 5px;
+   display: inline-block;
+   width: 1px;
+   
+}
+
+.socials > img 
+{
+    width: 40px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links-wrap
+{
+    justify-content: space-evenly;
+}
+
+.socials
+{
+    border-radius: 5px;
+    background-color: #f7f8f9;
+}
+
+.Button-wrap
+{
+    width: 100%;
+    padding: 0.5em 0.5em;
+}
+
+.Button-wrap > button 
+{
+    width: 100%;
+    padding: 0.5em;
+    background-color: #2854C5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.tabs
+{
+    padding: 0.5em 0.5em;
+
+}
+
+
+.head-wrap
+{
+    
+    padding: 0.5em 0;
+    gap:1rem;
+    font-size: 14px;
+    color: grey;
+    font-weight: 400;
+    border-bottom: 1px solid  #f7f8f9;
+    border-top: 1px solid  #f7f8f9;
+}
+
+/**codp */
+.tabhead
+{
+    padding: 0.4em 0.4em;
+    border-radius: 5px;
+    
+}
+
+.tab-active
+{
+    background: #2855c537;
+    color: #2855c5cd;
+}
+
+.text-para 
+{
+    font-size: 12px;
+    font-weight: 300;
+    height: 200px;
+    overflow-y: scroll;
+    padding: 0.2em 0.2em;
+}
+
